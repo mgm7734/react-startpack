@@ -1,5 +1,5 @@
 import React, {PropTypes} from 'react';
-
+/*
 export default class App extends React.Component {
   render() {
     return (
@@ -8,3 +8,9 @@ export default class App extends React.Component {
       </div>);
   }
 }
+*/
+export default const App = props => (
+    <div>
+        MyComponent!
+    </div>);
+)
